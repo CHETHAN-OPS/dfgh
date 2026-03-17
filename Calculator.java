@@ -1,12 +1,9 @@
 public class Calculator {
     public static void main(String[] args) {
-
         int a = 10;
         int b = 5;
-        String operation = "add";   // change: add, sub, mul, div
-
+        String operation = "add";
         int result;
-
         switch (operation.toLowerCase()) {
             case "add":
                 result = a + b;
